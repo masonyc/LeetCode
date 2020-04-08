@@ -19,4 +19,4 @@ class Solution:
         grid[i][j] = 2
         return (self.dfs(i + 1, j, grid)
                 * self.dfs(i - 1, j, grid)
-                * self.dfs(i, j + 1, grid)
+                * self.dfs(i, j + 1, grid))
